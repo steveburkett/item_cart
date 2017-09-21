@@ -18,4 +18,6 @@ Playing around w/ react-rails
 1) bottom line: deliver (non-trivial) reactive front-end UI faster
 
 #More rails to react stories
+http://blog.arkency.com/2014/07/why-we-use-react-js-in-our-rails-projects/
+
 https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers
