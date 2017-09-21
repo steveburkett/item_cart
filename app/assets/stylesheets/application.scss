@@ -1,0 +1,19 @@
+@import "bootstrap";
+
+.item div, .item input {
+    width: 25%;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+
+.cart {
+  margin-top: 30px;
+}
+
+.header, .item {
+  margin-bottom: 5px;
+}
+
+.item-button {
+  margin-left: 5px;
+}

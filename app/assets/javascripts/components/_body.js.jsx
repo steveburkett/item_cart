@@ -1,6 +1,8 @@
 var Body = React.createClass({
     getInitialState() {
-        return { items: [] }
+        // console.log('calling items.json' + this.props.items);
+        // return { items: this.props.items }
+      return { items: [] }
     },
 
     componentDidMount() {

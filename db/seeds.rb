@@ -6,4 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-10.times { Item.create!(name: Faker::Simpsons.character, description: Faker::Simpsons.quote ) }
+Item.destroy_all
+
+10.times { Item.create!(name: Faker::Coffee.blend_name, description: Faker::Coffee.notes ) }

@@ -9,7 +9,12 @@ gem 'responders'
 gem 'faker'
 
 gem 'react-rails'
+group :development, :test do
+  gem 'railroady'
+  gem 'jasmine-rails'
+end
 
+gem 'rails-erd', require: false, group: :development
 gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -31,6 +36,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+
+gem 'bootstrap', '~> 4.0.0.beta'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
